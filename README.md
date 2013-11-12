@@ -1,15 +1,15 @@
-## CSSL
-ÅìµşÅÅµ¡Âç³Ø, Í­Àş¾µÇ§¤ò¹Ô¤¦¥×¥í¥°¥é¥à
+ï»¿## CSSL
+æ±äº¬é›»æ©Ÿå¤§å­¦, æœ‰ç·šæ‰¿èªã‚’è¡Œã†ãƒ—ãƒ­ã‚°ãƒ©ãƒ 
    
-¤Á¤Ê¤ß¤ËUser-Agent¤Ï,
+ã¡ãªã¿ã«User-Agentã¯,
   `User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/28.0.1500.52 Safari/537.36`
 ###Usage
 `./cssl --device=<Device Name> --user=<User Name>`
    
-Device Name: `ip link`¤Ç½Ğ¤Æ¤¯¤ëEthernet¤Î¥Ç¥Ğ¥¤¥¹Ì¾.
+Device Name: `ip link`ã§å‡ºã¦ãã‚‹Ethernetã®ãƒ‡ãƒã‚¤ã‚¹å.
    
-User Name: ³ØÀÒÈÖ¹æ
+User Name: å­¦ç±ç•ªå·
 ***
-´Ä¶­¤Ë¤è¤Ã¤Æ¤ÏMakefileÆâ¤ÎFLAGS¤Ë-lcrypton¤¬É¬Í×.
+ç’°å¢ƒã«ã‚ˆã£ã¦ã¯Makefileå†…ã®FLAGSã«-lcryptonãŒå¿…è¦.
    
 `FLAGS = -g -Wall -I include/ -lssl -crypto`
