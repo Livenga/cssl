@@ -160,6 +160,6 @@ void print_help(const char *name) {
 }
 
 void print_version(const char *name) {
-  printf("%s Version: 1.0.1 (C)0x6E756C6C\n", name);
+  printf("%s Version: 1.0.1 (C)Livenga\n", name);
 }
 
