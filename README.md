@@ -13,3 +13,6 @@ User Name: 学籍番号
 環境によってはMakefile内のFLAGSに-lcryptonが必要.
    
 `FLAGS = -g -Wall -I include/ -lssl -crypto`
+
+### Other
+閲覧エリアでの有線は承認可能だが, PCルーム等の有線では承認は行われない.
