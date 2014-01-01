@@ -15,7 +15,7 @@ User Name: 学籍番号
 `FLAGS = -g -Wall -I include/ -lssl -crypto`
 
 ### Version
-v.0.0.1  
+v.0.0.1 2013/12/12  
   ・初期アップロード
 
 #### Other
