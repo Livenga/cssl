@@ -1,5 +1,5 @@
 CC = gcc
-FLAGS = -g -Wall -I include/ -lssl
+FLAGS = -g -Wall -I include/ -lssl -lcrypto
 SOURCE = main.c net.c pass.c message.c
 OBJC = main.o net.o pass.o message.o
 PRJC = cssl
